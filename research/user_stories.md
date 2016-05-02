@@ -26,6 +26,3 @@
 <h2>Possible Ideas (depending on difficulty and pluggin availability)</h2>
 
 <p>As a User I would like to be able to filter upcoming events based on skill level required.</p>
-
-
-
