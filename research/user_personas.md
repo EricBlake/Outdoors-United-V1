@@ -35,3 +35,12 @@
 <p>Richard is a natural born leader and has no issue taking the leadership role when needed.</p>
 
 
+<h3>Jessica Hornrady</h3>
+<p>Jessica is a Native Houstonian. She owns a craft store that specializes in local craft sales. Jessica is an avid nature lover but feels that she is always stuck down town.</p>
+<p>Jessica has a strong grasp on plants native to Texas.</p>
+<p>Jessica is 32 years old.</p>
+<p>Jessica does a great deal of charity work.</p>
+<p>Jessica is Vegan.</p>
+<p>Jessica runs in two marathons every year.</p>
+
+
