@@ -3,50 +3,96 @@
 ---
 @charset "utf-8";
 
+//---------------------------VARIABLES-------------------------//
+//------FONTS--------------//
+$header_font: "hwt-slab-columbian";
+$body_font:"petala-pro", helvetica;
+$header_size:30px;
+$subheader_size:18px;
+$body_size:16px;
+//-------COLORS------------//
+$background_color:#F1F2F2;
+$main_theme:#3c5077;
+$font_color:#212922;
+$accent_color:#DB5936;
+$button_color:#6b9b6c;
 
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$tot-width: 100%;
+$num-col: 12;
+$gut-width: 5%;
 
-$spacing-unit:     30px;
+$ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+@mixin grid($geezy){
+  width: ($geezy * $ind-col-width) + ($gut-width * ($geezy - 1));
+  float: left;
+  margin-right: $gut-width;
+  &:last-child {
+    margin-right: 0;
+  }
+}
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+.row {
+  overflow: hidden;
+  margin:1%;
+}
 
-// Width of the content area
-$content-width:    800px;
+.col {
+  
+}
 
-$on-palm:          600px;
-$on-laptop:        800px;
+@media (min-width: 650px){
+  .col {
+    margin-bottom: 0;
+  }
+  .col-1 {
+    @include grid(1);
+  }
 
+  .col-2 {
+    @include grid(2);
+  }
 
+  .col-3 {
+    @include grid(3);
+  }
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  .col-4 {
+     @include grid(4);
+  }
+  
+  .col-5 {
+     @include grid(5);
+  }
+  .col-6 {
+     @include grid(6);
+  }
+  .col-7 {
+     @include grid(7);
+  }
+  .col-8 {
+     @include grid(8);
+  }
+  .col-9 {
+     @include grid(9);
+  }
+  .col-10 {
+     @include grid(10);
+  }
+  .col-11 {
+     @include grid(11);
+  }
+  .col-12 {
+     @include grid(12);
+  }
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+		"normalize",
         "base",
         "layout",
         "syntax-highlighting"
