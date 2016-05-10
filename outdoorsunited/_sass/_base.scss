@@ -3,6 +3,7 @@
 	margin:0 auto;
 	box-sizing:border-box;
 	overflow:hidden;
+	
 
 	.recomended{
 		box-sizing:border-box;
@@ -118,6 +119,23 @@
 							color: $button_color;
 						}
 					}
+					.trip_photos{
+
+					img{
+						height:5em;
+						width: 5em;
+						
+					}//closing img
+
+					.view_btn{
+						background-color:$button_color;
+						text-decoration: none;
+						color: $background-color;
+						padding:0.75em;
+
+					}//closing view_btn tag
+
+					}//closing trip photos
 
 
 					}//closing news_content
@@ -128,11 +146,94 @@
 
 	}//closing news_feed
 
-
-
-
-
 }//closing dash_wrapper//
+
+.dash_side{
+	
+	
+
+	.profile{
+
+
+		.profile_img{
+				img{
+				height: 5em;
+				width: 5em;
+			}//closing img tag
+		}//closing profile_img tag
+
+		h2{
+				font-family: $body_font;
+				color: $font_color;
+
+		}
+
+		h3{
+				font-family: $body_font;
+				color: $font_color;
+		}
+
+	}//closing profile tag
+
+		h2{
+				color: $font_color;
+				font-family: $body_font;
+			}
+
+	.upcoming_events{
+
+			p{
+				color: $font_color;
+				font-family: $body_font;
+			}
+			.find_more_button{
+				color: $font_color;
+				font-family: $body_font;
+				text-decoration: none;
+				border:1px solid $font_color;
+			}
+
+	}//closing upcoming_events tag
+
+	.dash_connections{
+
+		.dash_friend{
+			display: inline-block;
+
+			.friend_img{
+				
+				img{
+					height: 7em;
+					width: 7em;
+				}
+			}//closing friend_img
+			h3{
+				color: $font_color;
+				font-family: $body_font;
+			}
+
+		}//closing dash_friend tag
+
+		a{
+			color: $font_color;
+			font-family: $body_font;
+			text-decoration: none;
+			border:1px solid $font_color;
+		}
+	}//closing dash_connections tag
+
+	.dash_items{
+
+		ul{
+			display: inline-block;
+			font-family: $body_font;
+			color: $font_color;
+		}
+	}
+
+
+
+}//closing dash_side tag
 
 
 

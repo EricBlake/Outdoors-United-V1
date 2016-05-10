@@ -13,3 +13,43 @@ layout: default
     </p>
   </div>
 </div>
+
+
+<div class="event_wrapper">
+    <div class="explore_tab">
+
+      <div class="event_type">
+        <h3>Type</h3>
+          <input type="checkbox"></input>
+          <input type="checkbox"></input>
+      </div><!--closing event_type-->
+
+
+           <div class="event_date">
+              <h3>Start Date</h3>
+                 <!--____________________________________________javascript for date selector-->
+
+ 
+                <form action="" name="someform">
+                <select id="daydropdown">
+                </select> 
+                <select id="monthdropdown">
+                </select> 
+                <select id="yeardropdown">
+                </select> 
+                </form>
+
+                <script type="text/javascript">
+
+                //populatedropdown(id_of_day_select, id_of_month_select, id_of_year_select)
+                window.onload=function(){
+                populatedropdown("daydropdown", "monthdropdown", "yeardropdown")
+                }
+                </script>
+
+    <!--____________________________________________ end javascript for date selector-->
+
+      </div><!--closing event_date-->
+    </div><!--closing explore_tag-->
+
+</div><!--closing event_wrapper-->

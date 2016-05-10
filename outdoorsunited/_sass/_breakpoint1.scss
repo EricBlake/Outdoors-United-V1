@@ -1,0 +1,17 @@
+@media(min-width:610px){
+
+	.dash_page_wrapper{
+		overflow: hidden;
+		box-sizing:border-box;
+	
+		.dash_wrapper{
+			float:left;
+
+			}//closing dash_wrapper
+
+		.dash_side{
+
+			float:right;
+		}//closing dash_side
+	}//closing dash_page_wrapper
+}//closing media tag
