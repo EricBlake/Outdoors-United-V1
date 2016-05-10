@@ -71,19 +71,53 @@
 
 	.news_feed{
 
+		h1{
+			font-family: $body_font;
+			font-size: $header_size;
+			color: $font_color;
+		}
+
+
 		.news_event{
+			overflow: hidden;
+			box-sizing:border-box;
 			.news_prof_pic{
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 0.5em;
 
 				img{
-				height: 2em;
-				width: 2em;
+				height: 4em;
+				width: 4em;
+
+				
 			}
 
 
 				}//closing news_prof_pic
 
 				.news_content{
+					display:block;
+					padding-bottom:1em;
+					color: $font_color;
+					margin-top: 0em;
+					margin-bottom: 1em;
+					border-bottom: 1px solid $font_color;ß
 
+					h3{
+						font-family: $body_font;
+						margin-bottom: 0em;
+					}
+
+					p{
+						font-family: $body_font;
+						margin-top: 0em;
+
+
+						a{
+							color: $button_color;
+						}
+					}
 
 
 					}//closing news_content
