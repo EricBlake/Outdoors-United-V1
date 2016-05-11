@@ -6,10 +6,22 @@
 	
 		.dash_wrapper{
 			float:left;
+			width: 56%;
+
+			.recomended{
+
+			.event_wrapper:nth-of-type(3){
+				display: inline;
+			}
+
+			}//closkng recomended 
 
 			}//closing dash_wrapper
 
 		.dash_side{
+			float: right;
+			width: 40%;
+
 
 			
 		}//closing dash_side

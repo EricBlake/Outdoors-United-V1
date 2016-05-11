@@ -12,6 +12,7 @@ $subheader_size:18px;
 $body_size:16px;
 //-------COLORS------------//
 $background_color:#eeefed;
+$background_color_alt:#DCDCDB;
 $main_theme:#6b9b6c;
 $font_color:#333333;
 $accent_color:#DB5936;
@@ -36,7 +37,8 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 .row {
   overflow: hidden;
-  margin:2%;
+  margin:0 auto;
+ 
 }
 
 .col {
@@ -97,5 +99,6 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
         "base",
         "layout",
         "syntax-highlighting",
-        "breakpoint1"
+        "breakpoint1",
+        "home"
 ;

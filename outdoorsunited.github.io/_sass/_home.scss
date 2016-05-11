@@ -1,0 +1,35 @@
+//HOME PAGE STYLING//
+
+.home_wrapper{
+
+	.row{
+
+		h1{
+			font-family: $body_font;
+			font-size: $header_size;
+			margin: 2%;
+		}
+
+		.about_site{
+			margin:2%;
+
+			h2{
+				font-family: $body_font;
+				font-size: $subheader_size;
+			}
+
+			p{
+				font-size: $body_size;
+				font-family: $body_font;
+			}
+
+
+		}//closing about_site
+
+		.get_started{
+
+		}
+
+		}//closing row
+
+	}//closing home_wrapper

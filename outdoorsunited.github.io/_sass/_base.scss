@@ -1,20 +1,21 @@
 .dash_wrapper{
-	
+	margin:2%;
 	margin:0 auto;
 	
-	overflow:hidden;
 	
 
 	.recomended{
+
 		box-sizing:border-box;
 		overflow:hidden;
-		padding-bottom:5em;
+		padding-bottom:3em;
 
 		h1{
 			font-family: $body_font;
 			font-weight: 800;
 			font-size: $header_size;
 			color:$font_color;
+			text-align: center;
 		}
 
 		.event_wrapper{
@@ -71,11 +72,13 @@
 	//--------------------------------------------------News Feed-->
 
 	.news_feed{
+		margin:2%;
 
 		h1{
 			font-family: $body_font;
 			font-size: $header_size;
 			color: $font_color;
+			text-align: center;
 		}
 
 
@@ -107,23 +110,27 @@
 
 					h3{
 						font-family: $body_font;
-						margin-bottom: 0em;
+						margin-bottom:0;
+						line-height: 0em;
 					}
 
 					p{
 						font-family: $body_font;
-						margin-top: 0em;
+						margin: 0em;
+						line-height: 1.5em;
 
 
 						a{
-							color: $button_color;
-						}
+							color: $button_color
+							
+												}
 					}
 					.trip_photos{
 
 					img{
 						height:5em;
 						width: 5em;
+						margin-bottom:0em;
 						
 					}//closing img
 
@@ -132,6 +139,7 @@
 						text-decoration: none;
 						color: $background-color;
 						padding:0.75em;
+						font-size: 14px;
 
 					}//closing view_btn tag
 
@@ -153,6 +161,8 @@
 	
 
 	.profile{
+		margin: 2%;
+		display: none;
 
 
 		.profile_img{
@@ -181,10 +191,34 @@
 			}
 
 	.upcoming_events{
+		margin:2%;
+		text-align: center;
+		padding-bottom: 2em;
+		border-bottom:1px solid $font_color;
+			.upcoming_img{
+				width: 10em;
+				margin:0 auto;
+			img{
+				height: 10em;
+				width: 10em;
+				
+				}
+			}
+			h1{
+			font-family: $body_font;
+			font-size: $header_size;
+			color: $font_color;
+			text-align: center;
+			padding-bottom: 1em;
+			}
 
 			p{
 				color: $font_color;
 				font-family: $body_font;
+			}
+			a{
+				color: $button_color;
+
 			}
 			.find_more_button{
 				color: $font_color;
@@ -196,11 +230,17 @@
 	}//closing upcoming_events tag
 
 	.dash_connections{
+		margin:2%;
+		border-bottom:1px solid $font_color;
 
 		.dash_friend{
 			display: inline-block;
 
+
 			.friend_img{
+				height: 7em;
+				width: 7em;
+				margin: 0 auto;
 				
 				img{
 					height: 7em;
@@ -223,11 +263,14 @@
 	}//closing dash_connections tag
 
 	.dash_items{
+		margin:2%;
+		text-align: center;
 
 		ul{
 			display: inline-block;
 			font-family: $body_font;
 			color: $font_color;
+			line-height: 1.5em;
 		}
 	}
 
