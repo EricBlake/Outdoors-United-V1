@@ -16,7 +16,7 @@
 			font-size: $header_size;
 			margin: 2%;
 			text-align: center;
-			padding-bottom:2em;
+			padding:2em;
 		}
 
 		.about_site{
@@ -44,15 +44,22 @@
 
 			h2{
 				text-align: center;
+				padding-bottom:2em;
 			}
 
 			.home_btns{
 				margin:0 auto;
-				width: 40%;
+				width: 50%;
+				text-align: center;
+				
 				a{
 					color:$background_color;
 					text-decoration: none;
-					background-color:$button_color;
+					background-color:$button_color_alt;
+					padding:1em;
+					display: inline-block;
+					margin:5%;
+					border-radius: 5px;
 					
 				}
 			}

@@ -3,6 +3,8 @@
 .site_header{
     background-color: $main_theme;
     padding:0.5em;
+    overflow: hidden;
+   
 
     .header_wrapper{
         overflow: hidden;
@@ -14,23 +16,33 @@
             text-decoration: none;
             display: inline-block;
 
+
         }
 
 
         .site-nav{
+            display: inline;
             float: right;
             padding-top:0.5em;
+            overflow: hidden;
             .nav_menu{
                 .nav_profile{
 
+                    img{
+                        height: 1.5em;
+                        width: 1.5em;
+                        display: inline-block;
+                    }
+                    
 
 
-                    a{
+
+                    p{
                         
                         font-family: $body_font;
                         color:$background-color;
 
-                }
+                    }
 
 
                 }//end of nav_pic tag
@@ -38,15 +50,7 @@
             }//end of nav_menu tag
 
 
-            .menu-content{
-                  display: none;
-                }
-
-                .active {
-                  display: block;
-                  background-color: teal;
-                }
-
+           
 
 
         }//end of site-nav tag

@@ -17,6 +17,7 @@ $main_theme:#6b9b6c;
 $font_color:#333333;
 $accent_color:#DB5936;
 $button_color:#3c5077;
+$button_color_alt:#D26B4E;
 $event_color:#D5D6DC;
 
 
@@ -45,7 +46,7 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
   
 }
 
-@media (min-width: 650px){
+@media (min-width: 595px){
   .col {
     margin-bottom: 0;
   }
@@ -100,5 +101,6 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
         "layout",
         "syntax-highlighting",
         "breakpoint1",
-        "home"
+        "home",
+        "events"
 ;

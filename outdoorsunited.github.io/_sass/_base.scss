@@ -8,7 +8,7 @@
 
 		box-sizing:border-box;
 		overflow:hidden;
-		padding-bottom:3em;
+		padding-bottom:2em;
 
 		h1{
 			font-family: $body_font;
@@ -16,42 +16,58 @@
 			font-size: $header_size;
 			color:$font_color;
 			text-align: center;
+			padding-bottom:1.5em;
 		}
 
-		.event_wrapper{
-			box-sizing:border-box;
+	
+
 
 
 			.recomended_events{
-				width: 40%;
-				margin:2%;
-				background-color: $event_color;
-				padding:.5em;
-				align: center;
-				float: left;
-				color:$font_color;
+			box-sizing:border-box;
+			overflow: hidden;
+			background-color: $event_color;
+			margin-left:2%;
+			padding:.5em;
+			color:$font_color;
 				
 
-				h2{
-					font-size: $subheader_size;
-					font-family: $body_font;
-					margin-bottom: 0em;
-					margin:5%;
+				.rec_img{
+					float: left;
 
+					img{
+						height:10em;
+						width: 10em;
+						
+					}
+				}
+				
+				.rec_cont{
+					padding-left:1em;
+					h2{
+
+						margin-left:2em;
+						font-size: $subheader_size;
+						font-family: $body_font;
+						margin-bottom: 0em;
+						
+
+						
+					}
+					p{
+						font-family: $body_font;
+						font-size:$body_size;
+						
+
+					}
+					a{
 					
+						font-family: $body_font;
+						font-size: $body_size;
+						color: $button_color;
+					}
 				}
-				p{
-					font-family: $body_font;
-					font-size:$body_size;
-					margin:5%;
-
-				}
-				a{
-					margin:5%;
-					font-family: $body_font;
-					font-size: $body_size;
-					color: $button_color;
-				}
+				
 			} //closing recomended_events//
 		
 
@@ -59,7 +75,7 @@
 				background-color:$button_color;
 			}
 
-		}//closing event_wrapper
+
 		.event_wrapper:nth-of-type(3){
 				display: none;
 			}
@@ -106,12 +122,12 @@
 					color: $font_color;
 					margin-top: 0em;
 					margin-bottom: 1em;
-					border-bottom: 1px solid $font_color;ß
+					border-bottom: 1px solid $font_color;
 
 					h3{
 						font-family: $body_font;
 						margin-bottom:0;
-						line-height: 0em;
+						line-height: 1.5em;
 					}
 
 					p{
@@ -121,7 +137,7 @@
 
 
 						a{
-							color: $button_color
+							color: $button_color;
 							
 												}
 					}
@@ -135,11 +151,12 @@
 					}//closing img
 
 					.view_btn{
-						background-color:$button_color;
+						background-color:$button_color_alt;
 						text-decoration: none;
 						color: $background-color;
 						padding:0.75em;
 						font-size: 14px;
+
 
 					}//closing view_btn tag
 
@@ -193,11 +210,16 @@
 	.upcoming_events{
 		margin:2%;
 		text-align: center;
-		padding-bottom: 2em;
+		padding-bottom:2em;
 		border-bottom:1px solid $font_color;
+		line-height: 1.75em;
+		background-color:$event_color;
+		padding:2em;
+
 			.upcoming_img{
 				width: 10em;
 				margin:0 auto;
+				padding-top:2em;
 			img{
 				height: 10em;
 				width: 10em;
@@ -277,7 +299,6 @@
 
 
 }//closing dash_side tag
-
 
 
 

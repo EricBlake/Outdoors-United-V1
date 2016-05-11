@@ -1,0 +1,50 @@
+
+.event_wrapper{
+
+    .tab-wrapper {
+
+     margin: 2%;
+
+    .tab {
+      color: $font_color;
+      padding: 1em;
+      text-decoration: none;
+      float: left;
+    }
+
+
+    .tab-content {
+      overflow: hidden;
+      line-height: 1.6;
+      padding: 1em;
+      display: none;
+      clear: both;
+
+    }
+
+    .active {
+      display: block;
+      background-color: $button_color_alt;
+      color: white;
+    }
+
+     .event_type{
+            color:$font_color;
+            display: inline-block;
+          }
+      .event_date{
+        color: $font_color;
+        display: inline-block;
+        padding-left:1em;
+      }
+
+      .number_people{
+        color: $font_color;
+        display: inline-block;
+        padding-left:1em;
+      }
+
+
+    }//closing tab-wrapper//
+
+}//closing event wrapper//
