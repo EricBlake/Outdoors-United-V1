@@ -1,6 +1,13 @@
 //HOME PAGE STYLING//
 
 .home_wrapper{
+	background: url("/images/forestsky.jpg");
+	
+	background-size: 100% 100%;
+	background-size:contain no-repeat;
+	padding-bottom:55%;
+
+	
 
 	.row{
 
@@ -8,19 +15,26 @@
 			font-family: $body_font;
 			font-size: $header_size;
 			margin: 2%;
+			text-align: center;
+			padding-bottom:2em;
 		}
 
 		.about_site{
-			margin:2%;
+			margin:0 auto;
+			max-width: 100%;
 
 			h2{
 				font-family: $body_font;
 				font-size: $subheader_size;
+				text-align: center;
 			}
 
 			p{
 				font-size: $body_size;
 				font-family: $body_font;
+				line-height: 1.5em;
+				padding-bottom:3em;
+				margin: 2%;
 			}
 
 
@@ -28,6 +42,20 @@
 
 		.get_started{
 
+			h2{
+				text-align: center;
+			}
+
+			.home_btns{
+				margin:0 auto;
+				width: 40%;
+				a{
+					color:$background_color;
+					text-decoration: none;
+					background-color:$button_color;
+					
+				}
+			}
 		}
 
 		}//closing row
