@@ -2,10 +2,10 @@
 
 .home_wrapper{
 	background: url("/images/forestsky.jpg");
-	
 	background-size: 100% 100%;
-	background-size:contain no-repeat;
-	padding-bottom:55%;
+	background:cover;
+
+	
 
 	
 
@@ -63,7 +63,7 @@
 					
 				}
 			}
-		}
+		}//closing get_started
 
 		}//closing row
 

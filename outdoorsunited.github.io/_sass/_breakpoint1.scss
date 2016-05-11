@@ -1,5 +1,7 @@
 @media(min-width:595px){
 
+
+//-------------------------------------------dashboard breakpoint 1-----//
 	.dash_page_wrapper{
 		overflow: hidden;
 		box-sizing:border-box;
@@ -20,10 +22,44 @@
 
 		.dash_side{
 			float: right;
-			width: 40%;
+			width: 30%;
+			background-color:$event_color;
+
+			.upcoming_events{
+				margin:0 auto;
+			}
 
 
 			
 		}//closing dash_side
 	}//closing dash_page_wrapper
+
+
+
+//-------------------------------------------home breakpoint 1-----//
+
+	.home_wrapper{
+		padding-bottom:5%;
+		
+		.row{
+
+			.about_site{
+				width:60%;
+				margin:0 auto;
+
+			}//closing about_site
+
+			.get_started{
+				
+				.home_btns{
+
+				}
+
+			}//closing get_started
+
+
+		}//closing home wrapper
+
+	}//closin home_wrapper
+
 }//closing media tag

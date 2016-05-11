@@ -257,6 +257,7 @@
 
 		.dash_friend{
 			display: inline-block;
+			margin:0 auto;
 
 
 			.friend_img{
@@ -267,6 +268,7 @@
 				img{
 					height: 7em;
 					width: 7em;
+					border:1px solid $font_color;
 				}
 			}//closing friend_img
 			h3{
@@ -293,6 +295,8 @@
 			font-family: $body_font;
 			color: $font_color;
 			line-height: 1.5em;
+			list-style:none;
+			
 		}
 	}
 
