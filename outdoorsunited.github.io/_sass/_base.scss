@@ -1,7 +1,7 @@
 .dash_wrapper{
 	
 	margin:0 auto;
-	box-sizing:border-box;
+	
 	overflow:hidden;
 	
 
@@ -12,7 +12,7 @@
 
 		h1{
 			font-family: $body_font;
-			font-weight: 400;
+			font-weight: 800;
 			font-size: $header_size;
 			color:$font_color;
 		}
@@ -234,14 +234,6 @@
 
 
 }//closing dash_side tag
-
-
-
-
-
-
-
-
 
 
 

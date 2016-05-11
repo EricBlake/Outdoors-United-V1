@@ -93,7 +93,7 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-		"normalize",
+		    "normalize",
         "base",
         "layout",
         "syntax-highlighting",

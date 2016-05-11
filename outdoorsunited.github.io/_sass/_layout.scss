@@ -36,6 +36,19 @@
                 }//end of nav_pic tag
 
             }//end of nav_menu tag
+
+
+            .menu-content{
+                  display: none;
+                }
+
+                .active {
+                  display: block;
+                  background-color: teal;
+                }
+
+
+
         }//end of site-nav tag
 
     }//end of header_wrapper tag
@@ -51,7 +64,6 @@
 body{
     background-color:$background_color;
 }
-
 
 
 
