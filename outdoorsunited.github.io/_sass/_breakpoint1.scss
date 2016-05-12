@@ -5,17 +5,28 @@
 	.dash_page_wrapper{
 		overflow: hidden;
 		box-sizing:border-box;
+		background-color:$background_color;
+		max-width: 1000px;
+		margin: 0 auto;
+
 
 	
 		.dash_wrapper{
 			float:left;
-			width: 56%;
+			width: 70%;
+			margin-right: 2%;
+
 
 			.recomended{
+				
+				margin:2%;
 
-			.event_wrapper:nth-of-type(3){
-				display: inline;
-			}
+				.recomended_events{
+
+					border-radius:10px;
+					margin-bottom: 1em;
+
+				}
 
 			}//closkng recomended 
 
@@ -23,7 +34,7 @@
 
 		.dash_side{
 			float:right;
-			width: 42%;
+			width: 28%;
 			
 
 			.profile{
@@ -36,6 +47,17 @@
 			.upcoming_events{
 				margin:0 auto;
 				background-color:$event_color;
+				border-bottom:0px solid $font_color;
+
+				h1{
+				font-family: $body_font;
+				font-weight: 800;
+				font-size: $bodysubheader_size;
+				color:$font_color;
+				text-align: center;
+				padding-bottom:0em;
+			}
+
 
 			}
 
@@ -85,15 +107,25 @@
 
 }//closing media 
 
-@media(min-width:595px){
+@media(min-width:680px){
 
 	//--------------------------------------------Profile breakpoint 1-----//
 
 
 	.prof_wrapper{
+		background-color:$background_color;
+
+		.prof_sect{
+			margin-bottom:2em;
+		}
 
 		.prof_events{
+			box-sizing:border-box;
+			margin:0 auto;
+			width: 95%;
+			border-radius:10px;
 
+			
 
 			.upcoming_events{
 			float:left;
@@ -124,6 +156,13 @@
 
 		.prof_photos{
 		clear: both;
+		background-color:$event_color;
+		width: 45%;
+		margin:0 auto;
+		border-radius:10px;
+		float: left;
+		margin-top: 1em;
+		margin-left: 2.5%;
 
 		h1{
 			font-family: $body_font;
@@ -131,13 +170,64 @@
 			color: $font_color;
 			text-align: center;
 		}
+		.prof_trip_img{
+			
 
-		img{
-			height:7em;
-			width: 7em;
-			float:left;
+			img{
+				
+			}
 		}
 	}//closing prof_photos
+
+	.prof_friends{
+			float: right;
+			margin:0 auto;
+			width: 45%;
+			border-radius:10px;
+			margin-top: 1em;
+			margin-right: 2.5%;
+
+
+			.prof_friend{
+				display: inline-block;
+				margin:0 auto;
+				margin:1%;
+
+
+				.friend_img{
+					}
+				h3{
+					color: $font_color;
+					font-family: $body_font;
+				}
+
+			}//closing dash_friend tag
+
+			a{
+				color: $font_color;
+				font-family: $body_font;
+				text-decoration: none;
+				border:1px solid $font_color;
+			}
+		}//closing dash_friends tag
+
+		.prof_items{
+			margin:2%;
+			text-align: center;
+			background-color:$event_color;
+			border-radius:10px;
+
+
+			ul{
+				display: inline-block;
+				font-family: $body_font;
+				color: $font_color;
+				line-height: 1.5em;
+				list-style:none;
+
+				
+			}
+		}//closing prof_items
 
 
 	}//closing prof_wrapper

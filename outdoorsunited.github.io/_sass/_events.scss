@@ -100,7 +100,7 @@
 
           }
           a{
-            color: $button_color;
+            color: $event_color;
             display: block;
           }
 
@@ -122,7 +122,7 @@
 
     .active {
       display: block;
-      background-color:$button_color_alt;
+      background-color:$event_color;
       color: white;
     }
 
