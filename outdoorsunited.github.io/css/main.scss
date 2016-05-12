@@ -5,11 +5,13 @@
 
 //---------------------------VARIABLES-------------------------//
 //------FONTS--------------//
-$header_font: "hwt-slab-columbian";
+$header_font: "abril-titling";
 $body_font:"petala-pro", helvetica;
 $header_size:30px;
-$subheader_size:18px;
+$subheader_size:20px;
+$bodysubheader_size:24px;
 $body_size:16px;
+
 //-------COLORS------------//
 $background_color:#eeefed;
 $background_color_alt:#DCDCDB;
@@ -97,7 +99,7 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 		    "normalize",
-        "base",
+        "dash",
         "layout",
         "syntax-highlighting",
         "breakpoint1",

@@ -11,6 +11,7 @@
 	background: url("/images/forestsky.jpg");
 	background-size: 100% 100%;
 	background:cover;
+	overflow:hidden;
 
 
 		
@@ -24,7 +25,7 @@
 		}
 
 		.about_site{
-				width:60%;
+				width:90%;
 				margin:0 auto;
 
 			h2{

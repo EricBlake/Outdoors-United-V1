@@ -2,6 +2,7 @@
 
 .site_header{
     background-color: $main_theme;
+    overflow: hidden;
   
 
    
@@ -15,6 +16,7 @@
             color:$background_color;
             text-decoration: none;
             display: inline-block;
+            font-weight: 800;
 
 
         }
@@ -54,8 +56,24 @@
 
                     }
 
+                    .toggle{
+                        display: inline;
+
+                        .fa{
+                            color:$background_color;
+                        }
+                    }
+
                     .menu-content{
                           display: none;
+                          list-style:none;
+
+                          li{
+
+                                a{
+                                    color:$font_color;
+                                }
+                          }
                         }
 
                         .active {

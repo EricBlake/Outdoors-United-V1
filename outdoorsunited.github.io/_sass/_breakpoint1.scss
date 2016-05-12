@@ -48,31 +48,112 @@
 
 //-------------------------------------------home breakpoint 1-----//
 
-	.home_wrapper{
-		width: 100%;
+
+		
 		
 		.row{
+			.home_wrapper{
 
-			.about_site{
-				width:50%;
-				margin:0 auto;
+				.about_site{
+					width: 60%;
+					margin:0 auto;
 
-			}//closing about_site
+					p{
 
-			.get_started{
-				
-				.home_btns{
+					}
 
-				}
+				}//closing about_site
 
-			}//closing get_started
+				.get_started{
+					
+					.home_btns{
+
+					}
+
+				}//closing get_started
 
 
 		}//closing home wrapper
 
-	}//closin home_wrapper
+	}//closing row
 
 
 //--------------------------------------------Event breakpoint 1-----//
 
-}//closing media tag
+
+
+
+}//closing media 
+
+@media(min-width:595px){
+
+	//--------------------------------------------Profile breakpoint 1-----//
+
+
+	.prof_wrapper{
+
+		.prof_events{
+
+
+			.upcoming_events{
+			float:left;
+			width: 40%;
+
+			margin:0 auto;
+
+
+				.upcoming_img{
+					
+
+
+					img{
+
+						
+
+					}
+
+
+
+				}//closing upcoming_img
+
+
+			}//closing upcoming_events
+
+
+		}//closing prof_events
+
+		.prof_photos{
+		clear: both;
+
+		h1{
+			font-family: $body_font;
+			font-size: $bodysubheader_size;
+			color: $font_color;
+			text-align: center;
+		}
+
+		img{
+			height:7em;
+			width: 7em;
+			float:left;
+		}
+	}//closing prof_photos
+
+
+	}//closing prof_wrapper
+
+	}//closing media query for Profile page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
