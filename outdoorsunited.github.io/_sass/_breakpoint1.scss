@@ -5,6 +5,7 @@
 	.dash_page_wrapper{
 		overflow: hidden;
 		box-sizing:border-box;
+
 	
 		.dash_wrapper{
 			float:left;
@@ -21,9 +22,10 @@
 			}//closing dash_wrapper
 
 		.dash_side{
-			float: right;
-			width: 30%;
+			float:right;
+			width: 42%;
 			background-color:$event_color;
+			
 
 			.upcoming_events{
 				margin:0 auto;
@@ -39,12 +41,12 @@
 //-------------------------------------------home breakpoint 1-----//
 
 	.home_wrapper{
-		padding-bottom:5%;
+		width: 100%;
 		
 		.row{
 
 			.about_site{
-				width:60%;
+				width:50%;
 				margin:0 auto;
 
 			}//closing about_site
@@ -61,5 +63,8 @@
 		}//closing home wrapper
 
 	}//closin home_wrapper
+
+
+//--------------------------------------------Event breakpoint 1-----//
 
 }//closing media tag

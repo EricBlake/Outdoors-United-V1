@@ -2,12 +2,12 @@
 
 .site_header{
     background-color: $main_theme;
-    padding:0.5em;
-    overflow: hidden;
+  
+
    
 
     .header_wrapper{
-        overflow: hidden;
+        padding:1em;
 
         .site-title{
             font-family: $header_font;
@@ -28,19 +28,29 @@
             .nav_menu{
                 .nav_profile{
 
-                    img{
-                        height: 1.5em;
-                        width: 1.5em;
+                    a{
+                        text-decoration: none;
                         display: inline-block;
-                    }
-                    
+                        color: $background_color;
 
-
-
-                    p{
+                        img{
+                            height: 1.5em;
+                            width: 1.5em;
+                            display: inline-block;
+                        }
                         
-                        font-family: $body_font;
-                        color:$background-color;
+
+
+
+                        p{
+                            
+                            font-family: $body_font;
+                            color:$background-color;
+
+                        }
+                        .fa{
+                            color:$background_color;
+                        }
 
                     }
 

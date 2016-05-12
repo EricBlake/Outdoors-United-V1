@@ -1,310 +1,313 @@
-.dash_wrapper{
-	margin:2%;
-	margin:0 auto;
-	
-	
+.dash_page_wrapper{
 
-	.recomended{
-
-		box-sizing:border-box;
+	.dash_wrapper{
+		margin:2%;
+		margin:0 auto;
 		overflow:hidden;
-		padding-bottom:2em;
-
-		h1{
-			font-family: $body_font;
-			font-weight: 800;
-			font-size: $header_size;
-			color:$font_color;
-			text-align: center;
-			padding-bottom:1.5em;
-		}
-
-	
-
-
-
-			.recomended_events{
-			box-sizing:border-box;
-			overflow: hidden;
-			background-color: $event_color;
-			margin-left:2%;
-			padding:.5em;
-			color:$font_color;
-				
-
-				.rec_img{
-					float: left;
-
-					img{
-						height:10em;
-						width: 10em;
-						
-					}
-				}
-				
-				.rec_cont{
-					padding-left:1em;
-					h2{
-
-						margin-left:2em;
-						font-size: $subheader_size;
-						font-family: $body_font;
-						margin-bottom: 0em;
-						
-
-						
-					}
-					p{
-						font-family: $body_font;
-						font-size:$body_size;
-						
-
-					}
-					a{
-					
-						font-family: $body_font;
-						font-size: $body_size;
-						color: $button_color;
-					}
-				}
-				
-			} //closing recomended_events//
+		
 		
 
-			.register{
-				background-color:$button_color;
-			}
+		.recomended{
 
-
-		.event_wrapper:nth-of-type(3){
-				display: none;
-			}
-
-	}//closing recomended tag//
-
-
-
-
-	//--------------------------------------------------News Feed-->
-
-	.news_feed{
-		margin:2%;
-
-		h1{
-			font-family: $body_font;
-			font-size: $header_size;
-			color: $font_color;
-			text-align: center;
-		}
-
-
-		.news_event{
-			overflow: hidden;
 			box-sizing:border-box;
-			.news_prof_pic{
-				display: block;
-				margin: 0 auto;
-				margin-bottom: 0.5em;
+			overflow:hidden;
+			padding-bottom:2em;
 
-				img{
-				height: 4em;
-				width: 4em;
+			h1{
+				font-family: $body_font;
+				font-weight: 800;
+				font-size: $header_size;
+				color:$font_color;
+				text-align: center;
+				padding-bottom:1.5em;
+			}
 
-				
+		
+
+
+
+				.recomended_events{
+				box-sizing:border-box;
+				overflow: hidden;
+				background-color: $event_color;
+				margin-left:2%;
+				padding:.5em;
+				color:$font_color;
+					
+
+					.rec_img{
+						float: left;
+
+						img{
+							height:10em;
+							width: 10em;
+							
+						}
+					}
+					
+					.rec_cont{
+						padding-left:1em;
+						h2{
+
+							margin-left:2em;
+							font-size: $subheader_size;
+							font-family: $body_font;
+							margin-bottom: 0em;
+							
+
+							
+						}
+						p{
+							font-family: $body_font;
+							font-size:$body_size;
+							
+
+						}
+						a{
+						
+							font-family: $body_font;
+							font-size: $body_size;
+							color: $button_color;
+						}
+					}
+					
+				} //closing recomended_events//
+			
+
+				.register{
+					background-color:$button_color;
+				}
+
+
+			.event_wrapper:nth-of-type(3){
+					display: none;
+				}
+
+		}//closing recomended tag//
+
+
+
+
+		//--------------------------------------------------News Feed-->
+
+		.news_feed{
+			margin:2%;
+
+			h1{
+				font-family: $body_font;
+				font-size: $header_size;
+				color: $font_color;
+				text-align: center;
 			}
 
 
-				}//closing news_prof_pic
-
-				.news_content{
-					display:block;
-					padding-bottom:1em;
-					color: $font_color;
-					margin-top: 0em;
-					margin-bottom: 1em;
-					border-bottom: 1px solid $font_color;
-
-					h3{
-						font-family: $body_font;
-						margin-bottom:0;
-						line-height: 1.5em;
-					}
-
-					p{
-						font-family: $body_font;
-						margin: 0em;
-						line-height: 1.5em;
-
-
-						a{
-							color: $button_color;
-							
-												}
-					}
-					.trip_photos{
+			.news_event{
+				overflow: hidden;
+				box-sizing:border-box;
+				.news_prof_pic{
+					display: block;
+					margin: 0 auto;
+					margin-bottom: 0.5em;
 
 					img{
-						height:5em;
-						width: 5em;
-						margin-bottom:0em;
-						
-					}//closing img
+					height: 4em;
+					width: 4em;
 
-					.view_btn{
-						background-color:$button_color_alt;
-						text-decoration: none;
-						color: $background-color;
-						padding:0.75em;
-						font-size: 14px;
-
-
-					}//closing view_btn tag
-
-					}//closing trip photos
-
-
-					}//closing news_content
-
-
-		}//closiing news_event
-
-
-	}//closing news_feed
-
-}//closing dash_wrapper//
-
-.dash_side{
-	
-	
-
-	.profile{
-		margin: 2%;
-		display: none;
-
-
-		.profile_img{
-				img{
-				height: 5em;
-				width: 5em;
-			}//closing img tag
-		}//closing profile_img tag
-
-		h2{
-				font-family: $body_font;
-				color: $font_color;
-
-		}
-
-		h3{
-				font-family: $body_font;
-				color: $font_color;
-		}
-
-	}//closing profile tag
-
-		h2{
-				color: $font_color;
-				font-family: $body_font;
-			}
-
-	.upcoming_events{
-		margin:2%;
-		text-align: center;
-		padding-bottom:2em;
-		border-bottom:1px solid $font_color;
-		line-height: 1.75em;
-		background-color:$event_color;
-		padding:2em;
-
-			.upcoming_img{
-				width: 10em;
-				margin:0 auto;
-				padding-top:2em;
-			img{
-				height: 10em;
-				width: 10em;
-				
+					
 				}
+
+
+					}//closing news_prof_pic
+
+					.news_content{
+						display:block;
+						padding-bottom:1em;
+						color: $font_color;
+						margin-top: 0em;
+						margin-bottom: 1em;
+						border-bottom: 1px solid $font_color;
+
+						h3{
+							font-family: $body_font;
+							margin-bottom:0;
+							line-height: 1.5em;
+						}
+
+						p{
+							font-family: $body_font;
+							margin: 0em;
+							line-height: 1.5em;
+
+
+							a{
+								color: $button_color;
+								
+													}
+						}
+						.trip_photos{
+
+						img{
+							height:5em;
+							width: 5em;
+							margin-bottom:0em;
+							
+						}//closing img
+
+						.view_btn{
+							background-color:$button_color_alt;
+							text-decoration: none;
+							color: $background-color;
+							padding:0.75em;
+							font-size: 14px;
+
+
+						}//closing view_btn tag
+
+						}//closing trip photos
+
+
+						}//closing news_content
+
+
+			}//closiing news_event
+
+
+		}//closing news_feed
+
+	}//closing dash_wrapper//
+
+	.dash_side{
+		
+		
+
+		.profile{
+			margin: 2%;
+			display: none;
+
+
+			.profile_img{
+					img{
+					height: 5em;
+					width: 5em;
+				}//closing img tag
+			}//closing profile_img tag
+
+			h2{
+					font-family: $body_font;
+					color: $font_color;
+
 			}
-			h1{
-			font-family: $body_font;
-			font-size: $header_size;
-			color: $font_color;
+
+			h3{
+					font-family: $body_font;
+					color: $font_color;
+			}
+
+		}//closing profile tag
+
+			h2{
+					color: $font_color;
+					font-family: $body_font;
+				}
+
+		.upcoming_events{
+			margin:2%;
 			text-align: center;
-			padding-bottom: 1em;
-			}
+			padding-bottom:2em;
+			border-bottom:1px solid $font_color;
+			line-height: 1.75em;
+			background-color:$event_color;
+			padding:2em;
 
-			p{
-				color: $font_color;
+				.upcoming_img{
+					width: 10em;
+					margin:0 auto;
+					padding-top:2em;
+				img{
+					height: 10em;
+					width: 10em;
+					
+					}
+				}
+				h1{
 				font-family: $body_font;
-			}
-			a{
-				color: $button_color;
+				font-size: $header_size;
+				color: $font_color;
+				text-align: center;
+				padding-bottom: 1em;
+				}
 
-			}
-			.find_more_button{
+				p{
+					color: $font_color;
+					font-family: $body_font;
+				}
+				a{
+					color: $button_color;
+
+				}
+				.find_more_button{
+					color: $font_color;
+					font-family: $body_font;
+					text-decoration: none;
+					border:1px solid $font_color;
+				}
+
+		}//closing upcoming_events tag
+
+		.dash_connections{
+			margin:2%;
+			border-bottom:1px solid $font_color;
+
+			.dash_friend{
+				display: inline-block;
+				margin:0 auto;
+
+
+				.friend_img{
+					height: 7em;
+					width: 7em;
+					margin: 0 auto;
+					
+					img{
+						height: 7em;
+						width: 7em;
+						border:1px solid $font_color;
+					}
+				}//closing friend_img
+				h3{
+					color: $font_color;
+					font-family: $body_font;
+				}
+
+			}//closing dash_friend tag
+
+			a{
 				color: $font_color;
 				font-family: $body_font;
 				text-decoration: none;
 				border:1px solid $font_color;
 			}
+		}//closing dash_connections tag
 
-	}//closing upcoming_events tag
+		.dash_items{
+			margin:2%;
+			text-align: center;
 
-	.dash_connections{
-		margin:2%;
-		border-bottom:1px solid $font_color;
-
-		.dash_friend{
-			display: inline-block;
-			margin:0 auto;
-
-
-			.friend_img{
-				height: 7em;
-				width: 7em;
-				margin: 0 auto;
-				
-				img{
-					height: 7em;
-					width: 7em;
-					border:1px solid $font_color;
-				}
-			}//closing friend_img
-			h3{
-				color: $font_color;
+			ul{
+				display: inline-block;
 				font-family: $body_font;
+				color: $font_color;
+				line-height: 1.5em;
+				list-style:none;
+				
 			}
-
-		}//closing dash_friend tag
-
-		a{
-			color: $font_color;
-			font-family: $body_font;
-			text-decoration: none;
-			border:1px solid $font_color;
 		}
-	}//closing dash_connections tag
-
-	.dash_items{
-		margin:2%;
-		text-align: center;
-
-		ul{
-			display: inline-block;
-			font-family: $body_font;
-			color: $font_color;
-			line-height: 1.5em;
-			list-style:none;
-			
-		}
-	}
 
 
 
-}//closing dash_side tag
+	}//closing dash_side tag
 
-
+}//closing dash_page_wrapper
 
 
 
