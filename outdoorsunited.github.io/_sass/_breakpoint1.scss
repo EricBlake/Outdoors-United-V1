@@ -24,11 +24,19 @@
 		.dash_side{
 			float:right;
 			width: 42%;
-			background-color:$event_color;
+			
+
+			.profile{
+				display: inline-block;
+
+
+			}//closing profile
 			
 
 			.upcoming_events{
 				margin:0 auto;
+				background-color:$event_color;
+
 			}
 
 

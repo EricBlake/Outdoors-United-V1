@@ -256,7 +256,7 @@
 
 		.dash_connections{
 			margin:2%;
-			border-bottom:1px solid $font_color;
+			
 
 			.dash_friend{
 				display: inline-block;
@@ -289,19 +289,7 @@
 			}
 		}//closing dash_connections tag
 
-		.dash_items{
-			margin:2%;
-			text-align: center;
-
-			ul{
-				display: inline-block;
-				font-family: $body_font;
-				color: $font_color;
-				line-height: 1.5em;
-				list-style:none;
-				
-			}
-		}
+		
 
 
 

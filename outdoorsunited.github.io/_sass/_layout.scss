@@ -54,8 +54,17 @@
 
                     }
 
+                    .menu-content{
+                          display: none;
+                        }
 
-                }//end of nav_pic tag
+                        .active {
+                          display: block;
+                          background-color: teal;
+                        }
+
+
+                }//end of nav_pprofiletag
 
             }//end of nav_menu tag
 

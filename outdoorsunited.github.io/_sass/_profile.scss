@@ -77,6 +77,7 @@
 				p{
 					color: $font_color;
 					font-family: $body_font;
+					font-size: $body_size;
 				}
 				a{
 					color: $button_color;
@@ -90,6 +91,88 @@
 				}
 
 		}//closing upcoming_events tag
-	}
+	}//closing prof_events
+	
+	.prof_photos{
+
+		h1{
+			font-family: $body_font;
+			font-size: $header_size;
+			color: $font_color;
+			text-align: center;
+		}
+
+		img{
+			height:5em;
+			width: 5em;
+			margin-bottom:0em;
+			display: inline-block;
+		}
+	}//closing prof_photos
+
+	.prof_friends{
+			margin:2%;
+			border-bottom:1px solid $font_color;
+
+			.prof_friend{
+				display: inline-block;
+				margin:0 auto;
+
+
+				.friend_img{
+					height: 7em;
+					width: 7em;
+					margin: 0 auto;
+					
+					img{
+						height: 7em;
+						width: 7em;
+						border:1px solid $font_color;
+					}
+				}//closing friend_img
+				h3{
+					color: $font_color;
+					font-family: $body_font;
+				}
+
+			}//closing dash_friend tag
+
+			a{
+				color: $font_color;
+				font-family: $body_font;
+				text-decoration: none;
+				border:1px solid $font_color;
+			}
+		}//closing dash_connections tag
+
+		.prof_items{
+			margin:2%;
+			text-align: center;
+
+			ul{
+				display: inline-block;
+				font-family: $body_font;
+				color: $font_color;
+				line-height: 1.5em;
+				list-style:none;
+				
+			}
+		}//closing prof_items
+
 
 }//closing prof_wrapper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
