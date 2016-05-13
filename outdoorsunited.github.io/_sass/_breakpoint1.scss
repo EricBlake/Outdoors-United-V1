@@ -30,6 +30,106 @@
 
 			}//closkng recomended 
 
+
+			.news_feed{
+			margin:2%;
+			padding: 2em;
+			background-color:#fff;
+			border-radius:5px;
+			box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+
+			h1{
+				font-family: $body_font;
+				font-size: $header_size;
+				color: $font_color;
+				margin-top: 0;
+				
+			}
+
+
+			.news_event{
+				overflow: hidden;
+				box-sizing:border-box;
+				border-bottom: 1px solid $background_color;
+				padding:1em;
+				.news_prof_pic{
+					display: block;
+					margin: 0 auto;
+					margin-bottom: 0.5em;
+					float: left;
+					width: 15%;
+
+					img{
+					width: 100%;
+
+					
+				}
+
+
+					}//closing news_prof_pic
+
+					.news_content{
+						display:block;
+						padding-bottom:1em;
+						color: $font_color;
+						margin-top: 0em;
+						margin-bottom: 1em;
+						padding-left:1em;
+						
+						float: left;
+						width: 70%;
+
+						h3{
+							font-family: $body_font;
+							margin:0;
+							line-height: 1.5em;
+						}
+
+						p{
+							font-family: $body_font;
+							margin: 0em;
+							line-height: 1.5em;
+
+
+							a{
+								color: $button_color;
+								
+													}
+						}
+						.trip_photos{
+							margin-top: 1em;
+
+						img{
+							height:5em;
+							width: 5em;
+							margin-bottom:0em;
+							
+						}//closing img
+
+						.view_btn{
+							background-color:$button_color_alt;
+							text-decoration: none;
+							color: $background-color;
+							padding:0.75em;
+							font-size: 14px;
+							display: block;
+							width: 5em;
+
+
+						}//closing view_btn tag
+
+						}//closing trip photos
+
+
+						}//closing news_content
+
+
+			}//closiing news_event
+
+
+		}//closing news_feed
+
+
 			}//closing dash_wrapper
 
 		.dash_side{
@@ -68,101 +168,92 @@
 
 
 
-//-------------------------------------------home breakpoint 1-----//
 
-
-		
-		
-		.row{
-			.home_wrapper{
-
-				.about_site{
-					width: 60%;
-					margin:0 auto;
-
-					p{
-
-					}
-
-				}//closing about_site
-
-				.get_started{
-					
-					.home_btns{
-
-					}
-
-				}//closing get_started
-
-
-		}//closing home wrapper
-
-	}//closing row
+	
 
 
 //--------------------------------------------Event breakpoint 1-----//
+.event_wrapper{
+
+	.tab {
+        border-radius:5px;
+
+      }
+
+    .tab-wrapper {
+		float:left;
+    	width: 70%;
+    	margin:0 auto;
+
+		.active {
+    		border-radius:5px;
+    		box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+    	}
+
+    }//closing tab_wrapper
+
+}//closing event_wrapper
+
+.event_side{
+			float:right;
+			width: 28%;
+			
+
+			.profile{
+				display: inline-block;
 
 
+			}//closing profile
+			
+
+			.upcoming_events{
+				margin:0 auto;
+				background-color:$event_color;
+				border-bottom:0px solid $font_color;
+
+				h1{
+				font-family: $body_font;
+				font-weight: 800;
+				font-size: $bodysubheader_size;
+				color:$font_color;
+				text-align: center;
+				padding-bottom:0em;
+			}
+
+
+			}
+
+
+			
+		}//closing event_side
 
 
 }//closing media 
 
-@media(min-width:680px){
+@media(min-width:540px){
 
 	//--------------------------------------------Profile breakpoint 1-----//
 
 
 	.prof_wrapper{
 		background-color:$background_color;
+		box-sizing:border-box;
 
 		.prof_sect{
 			margin-bottom:2em;
 		}
 
-		.prof_events{
-			box-sizing:border-box;
-			margin:0 auto;
-			width: 95%;
-			border-radius:10px;
-
-			
-
-			.upcoming_events{
-			float:left;
-			width: 40%;
-
-			margin:0 auto;
-
-
-				.upcoming_img{
-					
-
-
-					img{
-
-						
-
-					}
-
-
-
-				}//closing upcoming_img
-
-
-			}//closing upcoming_events
-
-
-		}//closing prof_events
+		
 
 		.prof_photos{
 		clear: both;
 		background-color:$event_color;
-		width: 45%;
+		width: 90%;
 		margin:0 auto;
-		border-radius:10px;
-		float: left;
+		border-radius:5px;
+		max-width: 1000px;
 		margin-top: 1em;
-		margin-left: 2.5%;
+		
 
 		h1{
 			font-family: $body_font;
@@ -171,21 +262,24 @@
 			text-align: center;
 		}
 		.prof_trip_img{
+			width: 90%;
+			margin: 0 auto;
 			
 
 			img{
+
 				
 			}
 		}
 	}//closing prof_photos
 
 	.prof_friends{
-			float: right;
-			margin:0 auto;
+			float:left;
+			margin-left:2.5%;
 			width: 45%;
-			border-radius:10px;
+			border-radius:5px;
 			margin-top: 1em;
-			margin-right: 2.5%;
+			
 
 
 			.prof_friend{
@@ -203,16 +297,13 @@
 
 			}//closing dash_friend tag
 
-			a{
-				color: $font_color;
-				font-family: $body_font;
-				text-decoration: none;
-				border:1px solid $font_color;
-			}
+			
 		}//closing dash_friends tag
 
 		.prof_items{
-			margin:2%;
+			float:right;
+			margin-right:2.5%;
+			width: 45%;
 			text-align: center;
 			background-color:$event_color;
 			border-radius:10px;

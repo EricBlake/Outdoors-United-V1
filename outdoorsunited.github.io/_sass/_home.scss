@@ -6,11 +6,11 @@
 	
 	
 
-	.row{
-		.home_wrapper{
-	background: url("/images/forestsky.jpg");
+
+	.home_wrapper{
+	background: url("/images/homebackground1.jpeg");
 	background-size: 100% 100%;
-	background:cover;
+	background:contain;
 	overflow:hidden;
 
 
@@ -18,10 +18,16 @@
 
 		h1{
 			font-family: $body_font;
-			font-size: $header_size;
-			margin: 2%;
+			font-size: 30px;
+			margin: 0 auto;
 			text-align: center;
-			padding:2em;
+			padding:0;
+			color: $button_color_alt;
+			border: 3px solid $button_color_alt;
+			padding:1em;
+			text-align:center;
+			width: 10em;
+			margin-top:3em;
 		}
 
 		.about_site{
@@ -32,14 +38,16 @@
 				font-family: $body_font;
 				font-size: $subheader_size;
 				text-align: center;
+				color: $background_color;
 			}
 
 			p{
-				font-size: $body_size;
+				font-size: $subheader_size;
 				font-family: $body_font;
 				line-height: 1.5em;
 				padding-bottom:3em;
 				margin: 2%;
+				color: $background_color;
 
 			}
 
@@ -51,6 +59,7 @@
 			h2{
 				text-align: center;
 				padding-bottom:2em;
+				color: $background_white;
 			}
 
 			.home_btns{
@@ -72,6 +81,111 @@
 		}//closing get_started
 
 
-		}//closing row
+	
 
 	}//closing home_wrapper
+
+	.home_sub{
+		overflow: hidden;
+		background-color:$font_color;
+
+		.about_site{
+			color:$background_white;
+			margin:2%;
+			p{
+				line-height: 1.75em;
+			}
+		}
+
+
+
+	}//closing home_sub
+
+
+@media(min-width:595px){
+	//-------------------------------------------home breakpoint 1-----//
+
+
+		
+		
+	
+			.home_wrapper{
+	background: url("/images/homebackground1.jpeg");
+	background-size: 100% 100%;
+	background:contain;
+	overflow:hidden;
+
+
+		
+
+		h1{
+			font-family: helvetica;
+			font-size: 48px;
+			margin: 0 auto;
+			text-align: center;
+			padding:0;
+			color: $button_color_alt;
+			border: 3px solid $button_color_alt;
+			padding:1em;
+			text-align:center;
+			width: 10em;
+			margin-top:3em;
+		}
+
+		.about_site{
+				width:60%;
+				margin:0 auto;
+
+			h2{
+				font-family: $body_font;
+				font-size: $subheader_size;
+				text-align: center;
+				color: $background_color;
+			}
+
+			p{
+				font-size: $subheader_size;
+				font-family: $body_font;
+				line-height: 1.5em;
+				padding-bottom:3em;
+				margin: 2%;
+				color: $background_color;
+
+			}
+
+
+		}//closing about_site
+
+		.get_started{
+
+			h2{
+				text-align: center;
+				padding-bottom:2em;
+				color: $background_white;
+			}
+
+			.home_btns{
+				margin:0 auto;
+				width: 50%;
+				text-align: center;
+				
+				a{
+					color:$background_color;
+					text-decoration: none;
+					background-color:$button_color_alt;
+					padding:1em;
+					display: inline-block;
+					margin:5%;
+					border-radius: 5px;
+					
+				}
+			}
+		}//closing get_started
+
+
+	
+
+	}//closing home_wrapper
+
+}//closing media tag
+

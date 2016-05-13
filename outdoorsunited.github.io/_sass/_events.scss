@@ -1,5 +1,7 @@
 
 .event_wrapper{
+  box-sizing:border-box;
+  overflow: hidden;
 
     .tab-wrapper {
 
@@ -9,8 +11,16 @@
         color: $font_color;
         padding: 1em;
         text-decoration: none;
-        float: left;
+        float:left;
+        margin-bottom: 2em;
+        border:1px solid $font_color;
+        border-radius:5px;
+
+
+
       }
+
+      
 
 
       .tab-content {
@@ -122,13 +132,134 @@
 
     .active {
       display: block;
-      background-color:$event_color;
-      color: white;
-    }
+      background-color:$background_white;
+      color: $font_color;
 
-     
+
+    }
 
 
     }//closing tab-wrapper//
 
+
+
 }//closing event wrapper//
+
+.event_side{
+
+
+    .profile{
+      margin: 2%;
+      display: none;
+
+
+      .profile_img{
+        width: 100%;
+
+          img{
+          width: 50%;
+          border-radius: 50%;
+        }//closing img tag
+      }//closing profile_img tag
+
+      h2{
+          font-family: $body_font;
+          color: $font_color;
+
+      }
+
+      h3{
+          font-family: $body_font;
+          color: $font_color;
+      }
+
+    }//closing profile tag
+
+    .recomended{
+      margin:2%;
+      box-sizing:border-box;
+      overflow:hidden;
+      padding-bottom:2em;
+
+      h1{
+        font-family: $body_font;
+     
+        font-size: $header_size;
+        color:$font_color;
+        text-align: center;
+        
+      }
+
+    
+
+
+
+        .recomended_events{
+        box-sizing:border-box;
+        overflow: hidden;
+        
+        
+        padding:.5em;
+        color:$font_color;
+          
+
+          .rec_img{
+            float:left;
+            width: 25%;
+
+            img{
+              width: 100%;
+              
+              
+            }
+          }
+          
+          .rec_cont{
+            padding-left:1em;
+            float:left;
+            width: 70%;
+            box-sizing:border-box;
+            h2{
+
+              margin-left:2em;
+              font-size: $subheader_size;
+              font-family: $body_font;
+              margin-bottom: 0em;
+              
+
+              
+            }
+            p{
+              font-family: $body_font;
+              font-size:$body_size;
+              
+
+            }
+            a{
+            
+              font-family: $body_font;
+              font-size: $body_size;
+              color: $button_color;
+            }
+          }
+          
+        } //closing recomended_events//
+    
+    
+
+    
+
+      h2{
+          color: $font_color;
+          font-family: $body_font;
+        }
+
+    
+
+    
+
+    
+}
+
+
+  }//closing dash_side tag

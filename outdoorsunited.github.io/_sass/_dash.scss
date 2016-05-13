@@ -69,10 +69,10 @@
 						color: $font_color;
 						margin-top: 0em;
 						margin-bottom: 1em;
-						padding-left:1em;
+						
 						
 						float: left;
-						width: 70%;
+						
 
 						h3{
 							font-family: $body_font;
@@ -110,8 +110,11 @@
 							display: block;
 							width: 5em;
 
+							
+
 
 						}//closing view_btn tag
+
 
 						}//closing trip photos
 
@@ -164,7 +167,7 @@
 
 			h1{
 				font-family: $body_font;
-			
+		 
 				font-size: $header_size;
 				color:$font_color;
 				text-align: center;
@@ -178,14 +181,14 @@
 				.recomended_events{
 				box-sizing:border-box;
 				overflow: hidden;
-				background-color: $event_color;
+				
 				
 				padding:.5em;
 				color:$font_color;
 					
 
 					.rec_img{
-						float: left;
+						float:left;
 						width: 25%;
 
 						img{
@@ -197,7 +200,7 @@
 					
 					.rec_cont{
 						padding-left:1em;
-						float: left;
+						float:left;
 						width: 70%;
 						box-sizing:border-box;
 						h2{
@@ -235,84 +238,9 @@
 					font-family: $body_font;
 				}
 
-		.upcoming_events{
-			margin:2%;
-			text-align: center;
-			padding-bottom:2em;
-			
-			line-height: 1.75em;
-			background-color:$event_color;
-			padding:2em;
+		
 
-				.upcoming_img{
-					width: 10em;
-					margin:0 auto;
-					padding-top:2em;
-				img{
-					height: 10em;
-					width: 10em;
-					
-					}
-				}
-				h1{
-				font-family: $body_font;
-				font-size: $header_size;
-				color: $font_color;
-				text-align: center;
-				padding-bottom: 1em;
-				}
-
-				p{
-					color: $font_color;
-					font-family: $body_font;
-				}
-				a{
-					color: $button_color;
-
-				}
-				.find_more_button{
-					color: $font_color;
-					font-family: $body_font;
-					text-decoration: none;
-					border:1px solid $font_color;
-				}
-
-		}//closing upcoming_events tag
-
-		.dash_connections{
-			margin:2%;
-			
-
-			.dash_friend{
-				display: inline-block;
-				margin:0 auto;
-
-
-				.friend_img{
-					height: 7em;
-					width: 7em;
-					margin: 0 auto;
-					
-					img{
-						height: 7em;
-						width: 7em;
-						border:1px solid $font_color;
-					}
-				}//closing friend_img
-				h3{
-					color: $font_color;
-					font-family: $body_font;
-				}
-
-			}//closing dash_friend tag
-
-			a{
-				color: $font_color;
-				font-family: $body_font;
-				text-decoration: none;
-				border:1px solid $font_color;
-			}
-		}//closing dash_connections tag
+		
 
 		
 
