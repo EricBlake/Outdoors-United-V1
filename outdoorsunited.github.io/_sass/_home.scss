@@ -13,6 +13,8 @@
 	background:contain;
 	overflow:hidden;
 	font-family: $body_font;
+	padding: 6em;
+	box-sizing: border-box;
 
 		
 
@@ -21,13 +23,12 @@
 			font-size: 30px;
 			margin: 0 auto;
 			text-align: center;
-			padding:0;
 			color: $background_color;
 			border: 3px solid $button_color_alt;
 			padding:1em;
 			text-align:center;
-			width: 10em;
-			margin-top:3em;
+			margin-bottom: 2em;
+			
 		}
 
 		.about_site{
@@ -64,17 +65,18 @@
 
 			.home_btns{
 				margin:0 auto;
-				width: 50%;
+				overflow: hidden;
 				text-align: center;
 				
 				a{
 					color:$background_color;
 					text-decoration: none;
 					background-color:$button_color_alt;
-					padding:1em;
-					display: inline-block;
-					margin:5%;
+					
 					border-radius: 5px;
+					width: 50%;
+					display: block;
+					float: left;
 					
 				}
 			}
@@ -86,14 +88,12 @@
 	}//closing home_wrapper
 
 	.home_sub{
-		overflow: hidden;
-		background-color:$font_color;
-		background: rgb(54, 25, 25); /* Fall-back for browsers that don't
-                                    support rgba */
-    	background: rgba(54, 25, 25, .5);
 
+		overflow: hidden;
+		background-color: #ffffff;
 		.about_site{
-			color:$background_white;
+			padding: 2em;
+			color:$font_color;
 			margin:2%;
 			p{
 				line-height: 1.75em;
@@ -123,17 +123,15 @@
 
 		h1{
 			font-family: $body_font;
-			font-size: 36px;
+			font-size: 60px;
 			margin: 0 auto;
 			text-align: center;
-			padding:0;
 			color: $background_color;
-			border: 3px solid $button_color_alt;
+			border: 8px solid $button_color_alt;
 			padding:1em;
 			text-align:center;
-			width: 10em;
-			margin-top:3em;
-		}
+			margin-bottom: 2em;
+			}
 
 		.about_site{
 				width:60%;
@@ -169,17 +167,20 @@
 
 			.home_btns{
 				margin:0 auto;
-				width: 50%;
+				overflow: hidden;
 				text-align: center;
+				width: 75%;
+				margin: 0 auto;
 				
 				a{
 					color:$background_color;
 					text-decoration: none;
 					background-color:$button_color_alt;
-					padding:1em;
-					display: inline-block;
-					margin:5%;
+					
 					border-radius: 5px;
+					width: 50%;
+					display: block;
+					float: left;
 					
 				}
 			}
@@ -192,17 +193,8 @@
 
 	.home_sub{
 		overflow: hidden;
-		background-color:$font_color;
-
-		background: rgb(54, 25, 25); /* Fall-back for browsers that don't
-                                    support rgba */
-    	background: rgba(54, 25, 25, .5);
-
-
-		
-
 		.about_site{
-			color:$background_white;
+			color:$font_color;
 
 			h2{
 				text-align: center;
