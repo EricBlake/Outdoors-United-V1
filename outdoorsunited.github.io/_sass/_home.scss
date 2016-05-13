@@ -8,21 +8,21 @@
 
 
 	.home_wrapper{
-	background: url("/images/homebackground1.jpeg");
+	background: url("/images/homebackgroundsmall.png");
 	background-size: 100% 100%;
 	background:contain;
 	overflow:hidden;
-
+	font-family: $body_font;
 
 		
 
 		h1{
-			font-family: $body_font;
+			
 			font-size: 30px;
 			margin: 0 auto;
 			text-align: center;
 			padding:0;
-			color: $button_color_alt;
+			color: $background_color;
 			border: 3px solid $button_color_alt;
 			padding:1em;
 			text-align:center;
@@ -113,7 +113,7 @@
 		
 	
 			.home_wrapper{
-	background: url("/images/homebackground1.jpeg");
+	background: url("/images/homebackgroundmed.png");
 	background-size: 100% 100%;
 	background:contain;
 	overflow:hidden;
@@ -123,11 +123,11 @@
 
 		h1{
 			font-family: helvetica;
-			font-size: 48px;
+			font-size: 36px;
 			margin: 0 auto;
 			text-align: center;
 			padding:0;
-			color: $button_color_alt;
+			color: $background_color;
 			border: 3px solid $button_color_alt;
 			padding:1em;
 			text-align:center;
@@ -194,6 +194,11 @@
 		overflow: hidden;
 		background-color:$font_color;
 
+		background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    	background: rgba(54, 25, 25, .5);
+
+
 		
 
 		.about_site{
@@ -205,7 +210,7 @@
 			p{
 				line-height: 1.75em;
 				margin:0 auto;
-			width: 60%
+				
 
 			}
 		}
