@@ -4,6 +4,7 @@ p {
 
 .prof_wrapper{
 	
+	
 
 
 	.prof_sect{
@@ -14,14 +15,15 @@ p {
 		background-repeat:no-repeat;
 		background-size:100% 100%;
 		overflow: hidden;
+		width: 100%;
 
 		
 
 
 		.prof_pic{
 			background: url("/images/profilepic2.png");
-			height:10em;
-			width: 10em;
+			height: 8em;
+			width: 8em;
 			background-size:cover;
 			background-repeat:no-repeat;
 			margin:0 auto;
@@ -71,6 +73,7 @@ p {
 			font-size: $bodysubheader_size;
 			color: $font_color;
 			text-align: center;
+
 
 		}
 
@@ -176,6 +179,13 @@ p {
 			text-align: center;
 
 
+			h1{
+				font-family: $body_font;
+				font-size: $bodysubheader_size;
+				color:$font_color;
+			}
+
+
 			ul{
 				display: inline-block;
 				font-family: $body_font;
@@ -210,6 +220,19 @@ p {
 			background-size:100% 100%;
 			overflow: hidden;
 			margin-bottom:2em;
+
+			.prof_pic{
+			background: url("/images/profilepic2.png");
+			height: 10em;
+			width: 10em;
+			background-size:cover;
+			background-repeat:no-repeat;
+			margin:0 auto;
+			border:0.5em solid $background_color;
+
+			
+
+			}//closing prof_pic
 		}
 
 		
@@ -246,19 +269,29 @@ p {
 		}
 	}//closing prof_photos
 
+.friend_item_wrapper{
+	box-sizing:border-box;
+	overflow:hidden;
+	margin:0 auto;
+	max-width:1000px;
+	padding-top:1em;
+	width:90%;
+	padding-bottom:2em;
+
 	.prof_friends{
 			float:left;
-			margin-left:2.5%;
-			width: 45%;
+			width: 48%;
+			margin:0 auto;
+			padding-left:2%;
 			border-radius:5px;
-			margin-top: 1em;
+			
 			
 
 
 			.prof_friend{
 				display: inline-block;
 				margin:0 auto;
-				margin:1%;
+				
 
 
 				.friend_img{
@@ -275,11 +308,14 @@ p {
 
 		.prof_items{
 			float:right;
-			margin-right:2.5%;
-			width: 45%;
+			width: 48%;
+			margin:0 auto;
+		
+			
 			text-align: center;
 			background-color:$event_color;
 			border-radius:10px;
+
 
 
 			ul{
@@ -300,6 +336,7 @@ p {
 				
 			}
 		}//closing prof_items
+	}//closing friend_item_wrapper
 
 
 	}//closing prof_wrapper
