@@ -88,6 +88,9 @@
 	.home_sub{
 		overflow: hidden;
 		background-color:$font_color;
+		background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    	background: rgba(54, 25, 25, .5);
 
 		.about_site{
 			color:$background_white;
@@ -186,6 +189,30 @@
 	
 
 	}//closing home_wrapper
+
+	.home_sub{
+		overflow: hidden;
+		background-color:$font_color;
+
+		
+
+		.about_site{
+			color:$background_white;
+
+			h2{
+				text-align: center;
+			}
+			p{
+				line-height: 1.75em;
+				margin:0 auto;
+			width: 60%
+
+			}
+		}
+
+
+
+	}//closing home_sub
 
 }//closing media tag
 
