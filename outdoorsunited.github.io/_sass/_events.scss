@@ -71,53 +71,47 @@
           border-bottom:1px solid $font_color;
             .recomended_events{
                
-                text-align: center;
-                padding-bottom:2em;
-                border-bottom:1px solid $font_color;
+                width: 50%;
+               
                 line-height: 1.75em;
-                background-color:$event_color;
                 line-height: 1em;
-                width: 80%;
                 max-width: 220px;
-                margin:0 auto;
-                margin-bottom: 2em;
+               
+             
                 
 
-        .rec_img{
-          width: 10em;
-          margin:0 auto;
-          padding-top:2em;
-        img{
-          height: 10em;
-          width: 10em;
-          
-          }
-        }
+                  .rec_img{
+                   
+                    margin:0 auto;
+                    padding-top:2em;
+                    width: 100%;
+                  img{
+                    width: 50%;
+                    
+                    }
+                  }
 
-        .rec_cont{
-          h2{
-          font-family: $body_font;
-          font-size: $subheader_size;
-          color: $font_color;
-          text-align: center;
-          padding-bottom: 1em;
-          line-height: 1em;
-          }
+                  .rec_cont{
+                    h2{
+                    font-family: $body_font;
+                    font-size: $subheader_size;
+                    color: $font_color;
+                    }
 
-          p{
-            color: $font_color;
-            font-family: $body_font;
+                    p{
+                      color: $font_color;
+                      font-family: $body_font;
 
-          }
-          a{
-            color: $event_color;
-            display: block;
-          }
+                    }
+                    a{
+                      color: $button_color;
+                      display: block;
+                    }
 
-          a:nth-of-type(2){
-            padding-top:1em;
-          }
-       }//end of rec_cont//
+                    a:nth-of-type(2){
+                      padding-top:1em;
+                    }
+                 }//end of rec_cont//
 
             }//closing recomended_events
 
@@ -148,32 +142,7 @@
 .event_side{
 
 
-    .profile{
-      margin: 2%;
-      display: none;
-
-
-      .profile_img{
-        width: 100%;
-
-          img{
-          width: 50%;
-          border-radius: 50%;
-        }//closing img tag
-      }//closing profile_img tag
-
-      h2{
-          font-family: $body_font;
-          color: $font_color;
-
-      }
-
-      h3{
-          font-family: $body_font;
-          color: $font_color;
-      }
-
-    }//closing profile tag
+  
 
     .recomended{
       margin:2%;
@@ -225,7 +194,7 @@
               font-size: $subheader_size;
               font-family: $body_font;
               margin-bottom: 0em;
-              
+                            
 
               
             }
@@ -235,6 +204,8 @@
               
 
             }
+
+
             a{
             
               font-family: $body_font;

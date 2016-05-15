@@ -56,29 +56,35 @@
 		}//closing about_site
 
 		.get_started{
+			box-sizing:border-box;
+			overflow: hidden;
 
-			h2{
-				text-align: center;
-				padding-bottom:2em;
-				color: $background_white;
-			}
+			
 
 			.home_btns{
 				margin:0 auto;
 				overflow: hidden;
 				text-align: center;
+				width: 48%;
+				box-sizing:border-box;
+				background-color:$button_color_alt;
+				border-radius: 5px;
+				margin-bottom: 1em;
+			
+
 				
 				a{
 					color:$background_color;
 					text-decoration: none;
-					background-color:$button_color_alt;
-					
+					padding: 0.5em;
 					border-radius: 5px;
-					width: 50%;
 					display: block;
-					float: left;
-					
+				
 				}
+			}
+
+			.home_btns:hover{
+				background-color:$button_alt_hover;
 			}
 		}//closing get_started
 
@@ -91,6 +97,7 @@
 
 		overflow: hidden;
 		background-color: #ffffff;
+
 		.about_site{
 			padding: 2em;
 			color:$font_color;
@@ -158,6 +165,8 @@
 		}//closing about_site
 
 		.get_started{
+			box-sizing:border-box;
+			overflow: hidden;
 
 			h2{
 				text-align: center;
@@ -167,22 +176,29 @@
 
 			.home_btns{
 				margin:0 auto;
-				overflow: hidden;
+				overflow: auto;
 				text-align: center;
-				width: 75%;
-				margin: 0 auto;
+				width: 48%;
+				box-sizing:border-box;
+				background-color:$button_color_alt;
+				border-radius: 5px;
+				margin-right:0.5em;
+				float:left;
+			
+
 				
 				a{
 					color:$background_color;
 					text-decoration: none;
-					background-color:$button_color_alt;
-					
+					padding: 0.5em;
 					border-radius: 5px;
-					width: 50%;
 					display: block;
-					float: left;
-					
+				
 				}
+			}
+
+			.home_btns:hover{
+				background-color:$button_alt_hover;
 			}
 		}//closing get_started
 

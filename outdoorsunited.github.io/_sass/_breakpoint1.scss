@@ -117,6 +117,10 @@
 
 
 						}//closing view_btn tag
+						.view_btn:hover{
+							background-color:$button_alt_hover;
+							}
+
 
 						}//closing trip photos
 
@@ -135,6 +139,7 @@
 		.dash_side{
 			float:right;
 			width: 28%;
+
 			
 
 			.profile{
@@ -174,6 +179,9 @@
 
 //--------------------------------------------Event breakpoint 1-----//
 .event_wrapper{
+	
+		max-width: 1000px;
+		margin:0 auto;
 
 	.tab {
         border-radius:5px;

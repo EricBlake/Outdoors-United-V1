@@ -53,6 +53,9 @@
                         .fa{
                             color:$background_color;
                         }
+                        .fa:hover{
+                            color:$button_alt_hover;
+                        }
 
                     }
 
