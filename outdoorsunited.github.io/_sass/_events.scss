@@ -76,6 +76,7 @@
                 line-height: 1.75em;
                 line-height: 1em;
                 max-width: 220px;
+
                
              
                 
@@ -142,17 +143,17 @@
 .event_side{
 
 
+
   
 
     .recomended{
       margin:2%;
       box-sizing:border-box;
       overflow:hidden;
-      padding-bottom:2em;
+      
 
       h1{
         font-family: $body_font;
-     
         font-size: $header_size;
         color:$font_color;
         text-align: center;
@@ -188,21 +189,17 @@
             float:left;
             width: 70%;
             box-sizing:border-box;
-            h2{
-
-              margin-left:2em;
-              font-size: $subheader_size;
-              font-family: $body_font;
-              margin-bottom: 0em;
-                            
-
-              
-            }
+           
             p{
               font-family: $body_font;
-              font-size:$body_size;
+              
               
 
+            }
+            p:first-of-type{
+              font-weight: bold;
+              font-size:$subheader_size;
+              padding-bottom:0.5em;
             }
 
 
@@ -234,3 +231,51 @@
 
 
   }//closing dash_side tag
+
+
+   .upcoming_wrapper{
+    background-color:$event_color;
+    overflow: hidden;
+
+    h2{
+      font-family: $body_font;
+      margin:2%;
+    }
+
+        .upcoming_events{
+          margin:2%;
+          clear: both;
+          
+
+          .upcoming_img{
+
+            width: 25%;
+            float: left;
+            img{
+            width: 100%;
+            box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+             }
+
+
+          }
+
+          .upcoming_cont{
+            padding-left:0.5em;
+            float: left;
+
+
+          }
+
+        }//closing upcoming_events
+
+    }//upcoming_wrapper
+
+
+
+
+
+
+
+
+
+

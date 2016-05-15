@@ -27,12 +27,14 @@
 		//--------------------------------------------------News Feed-->
 
 		.news_feed{
-			margin:2%;
+			
 			
 			background-color:#fff;
+			box-sizing:border-box;
 			
 
 			h1{
+				margin:2%;
 				font-family: $body_font;
 				font-size: $header_size;
 				color: $font_color;
@@ -42,16 +44,17 @@
 
 
 			.news_event{
+				margin:2%;
 				overflow: hidden;
 				box-sizing:border-box;
 				border-bottom: 1px solid $background_color;
-				padding:1em;
+				
 				.news_prof_pic{
 					display: block;
 					margin: 0 auto;
 					margin-bottom: 0.5em;
 					float: left;
-					width: 15%;
+					width: 20%;
 
 					img{
 					width: 100%;
@@ -64,14 +67,14 @@
 					}//closing news_prof_pic
 
 					.news_content{
+						padding-left: 0.5em;
 						display:block;
 						padding-bottom:1em;
 						color: $font_color;
 						margin-top: 0em;
 						margin-bottom: 1em;
-						
-						
 						float: left;
+						width: 70%;
 						
 
 						h3{
@@ -93,16 +96,20 @@
 						}
 						.trip_photos{
 							margin-top: 1em;
+							width: 100%;
+							overflow: hidden;
+							box-sizing:border-box;
 
 						img{
-							height:5em;
-							width: 5em;
+							width: 30%;
+							display: inline-block;
 							margin-bottom:0em;
 							box-shadow: 2px 2px 2px rgba(0,0,0,.15);
 							
 						}//closing img
 
 						.view_btn{
+							
 							background-color:$button_color_alt;
 							text-decoration: none;
 							color: $background-color;
@@ -155,16 +162,17 @@
 				}//closing img tag
 			}//closing profile_img tag
 
-			h2{
-					font-family: $body_font;
-					color: $font_color;
+					.dash_prof_cont{
 
-			}
+					p{
+							font-family: $body_font;
+							color: $font_color;
 
-			h3{
-					font-family: $body_font;
-					color: $font_color;
-			}
+					}
+
+					
+
+				}
 
 		}//closing profile tag
 
@@ -243,8 +251,41 @@
 							color: $button_color;
 						}
 					}
+
+					
 					
 				} //closing recomended_events//
+
+				.rec_items_btn{
+						
+						clear: both;
+						display: block;
+						color: $font_color;
+						font-family: $body_font;
+						font-size: $subheader_size;
+						text-decoration: none;
+						background-color:$button_color_alt;
+						margin:0 auto;
+						width: 200px;
+						text-align:center;
+						padding:0.5em;
+						border-radius:5px;
+						
+						box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+
+
+						a{
+							text-decoration: none;
+							color:$background_color;
+
+
+
+						}
+					}
+
+					.rec_items_btn:hover{
+					background-color:$button_alt_hover;
+				}
 		
 		
 

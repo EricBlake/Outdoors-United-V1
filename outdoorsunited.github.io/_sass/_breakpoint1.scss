@@ -57,7 +57,7 @@
 					margin: 0 auto;
 					margin-bottom: 0.5em;
 					float: left;
-					width: 15%;
+					width: 20%;
 
 					img{
 					width: 100%;
@@ -98,11 +98,15 @@
 						}
 						.trip_photos{
 							margin-top: 1em;
+							width: 100%;
+							overflow: hidden;
+							box-sizing:border-box;
 
 						img{
-							height:5em;
-							width: 5em;
+							width: 30%;
+							display: inline-block;
 							margin-bottom:0em;
+							box-shadow: 2px 2px 2px rgba(0,0,0,.15);
 							
 						}//closing img
 
@@ -143,28 +147,46 @@
 			
 
 			.profile{
-				display: inline-block;
+			margin: 2%;
+			display: inline-block;
+			box-sizing:border-box;
+			overflow: hidden;
 
 
-			}//closing profile
+			.profile_img{
+				width: 49%;
+				float:left;
+				padding-right:0.5em;
+				
+					img{
+					width: 100%;
+					box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+					
+				}//closing img tag
+			}//closing profile_img tag
+
+
+			.dash_prof_cont{
+				width: 48%;
+				float: left;
+
+					p{		
+							
+							font-family: $body_font;
+							font-size: $subheader_size;
+							color: $font_color;
+
+					}
+					p:first-of-type{
+						font-weight: bold;
+					}
+
+					
+			}
+
+		}//closing profile tag
 			
 
-			.upcoming_events{
-				margin:0 auto;
-				background-color:$event_color;
-				border-bottom:0px solid $font_color;
-
-				h1{
-				font-family: $body_font;
-				font-weight: 800;
-				font-size: $bodysubheader_size;
-				color:$font_color;
-				text-align: center;
-				padding-bottom:0em;
-			}
-
-
-			}
 
 
 			
@@ -207,29 +229,8 @@
 			width: 28%;
 			
 
-			.profile{
-				display: inline-block;
+	
 
-
-			}//closing profile
-			
-
-			.upcoming_events{
-				margin:0 auto;
-				background-color:$event_color;
-				border-bottom:0px solid $font_color;
-
-				h1{
-				font-family: $body_font;
-				font-weight: 800;
-				font-size: $bodysubheader_size;
-				color:$font_color;
-				text-align: center;
-				padding-bottom:0em;
-			}
-
-
-			}
 
 
 			
