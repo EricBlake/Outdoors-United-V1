@@ -19,11 +19,29 @@ layout: page
                     <!--closing event_date-->
                     <div class="number_people">
                         <h3>Number of People</h3>
-                        <input>
+                        <select class="1-100"></select>
                     </div><!--closing number_poeple tab-->
                     <div class="distance">
                         <h3>Distance</h3>
-                        <input>
+                        <div 
+                           data-units="miles" 
+                           data-zoom="10"
+                           data-control-action="filter" 
+                           data-control-name="autocomplete-radius" 
+                           data-control-type="autocomplete-radius" 
+                           class="left"> <!-- units: miles, km -->
+                           
+                           <input type="text" placeholder="Enter a location" class="autocomplete" autocomplete="off" />
+                           
+                           <select class="distance jplist-select">
+                              <option value="1">1 Mile</option>
+                              <option value="5">5 Mile</option>
+                              <option value="10">10 Miles</option>
+                              <option value="30">30 Miles</option>
+                              <option selected="selected" value="50">50 Miles</option>
+                              <option value="100">100 Miles</option>
+                           </select>
+                        </div>
                     </div> <!--closing distance tab-->
                    
 

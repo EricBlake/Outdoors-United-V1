@@ -16,8 +16,17 @@
         border:1px solid $font_color;
         border-radius:5px;
 
+        .active{
+         background-color:$button_color_alt;
+      }
 
 
+      }
+
+     
+
+      .tab:hover{
+        background-color:$button_alt_hover;
       }
 
       
@@ -30,6 +39,7 @@
         display: none;
         clear: both;
         box-sizing:border-box;
+        background-color:$background_white;
 
           //-------------------------filter options---------------------//
        .event_type{
