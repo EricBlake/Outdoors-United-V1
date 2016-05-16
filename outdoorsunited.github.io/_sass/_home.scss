@@ -140,6 +140,7 @@
 			padding:1em;
 			text-align:center;
 			margin-bottom: 2em;
+			max-width: 800px;
 			}
 
 		.about_site{
@@ -169,11 +170,14 @@
 		.get_started{
 			box-sizing:border-box;
 			overflow: hidden;
+			max-width: 800px;
+			margin: 0 auto;
 
 			h2{
 				text-align: center;
 				padding-bottom:2em;
 				color: $background_white;
+
 			}
 
 			.home_btns{
@@ -186,6 +190,7 @@
 				border-radius: 5px;
 				margin-right:0.5em;
 				float:left;
+
 			
 
 				

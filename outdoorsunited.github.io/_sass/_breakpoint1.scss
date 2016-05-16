@@ -193,49 +193,8 @@
 		}//closing dash_side
 	}//closing dash_page_wrapper
 
-
-
-
-	
-
-
-//--------------------------------------------Event breakpoint 1-----//
-.event_wrapper{
-	
-		max-width: 1000px;
-		margin:0 auto;
-
-	.tab {
-        border-radius:5px;
-
-      }
-
-    .tab-wrapper {
-		float:left;
-    	width: 70%;
-    	margin:0 auto;
-
-		.active {
-    		border-radius:5px;
-    		box-shadow: 2px 2px 2px rgba(0,0,0,.15);
-    	}
-
-    }//closing tab_wrapper
-
-}//closing event_wrapper
-
-.event_side{
-			float:right;
-			width: 28%;
-			
+}//closing media query
 
 	
 
-
-
-			
-		}//closing event_side
-
-
-}//closing media 
 
