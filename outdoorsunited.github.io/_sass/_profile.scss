@@ -119,8 +119,11 @@ p {
 
 	.prof_friends{
 			clear: both;
-			background-color:$event_color;
+			background-color:$background_color;
 			overflow: hidden;
+			border:1px solid $font_color;
+			margin:2%;
+			border-radius:5px;
 			
 			
 
@@ -137,6 +140,7 @@ p {
 			.prof_friend{
 				margin:2%;
 				clear: both;
+
 					.friend_img {
 						width: 25%;
 						float: left;
@@ -196,8 +200,10 @@ p {
 
 		.prof_items{
 			box-sizing:border-box;
-		
 			text-align: center;
+			border:1px solid $font_color;
+			margin:2%;
+			border-radius:5px;
 
 
 			h1{

@@ -55,21 +55,27 @@
 
           .search_option_1{
             overflow: hidden;
+            margin:0 auto;
+            margin-bottom: 0;
+            
+            
        .event_type{
-            width: 33.33%;
+        
+           text-align: center;
+             margin:0.5em auto;
               color:$font_color;
-            float: left;
-            font-size: $body_size;
+            
+            font-size: $filter_font;
             font-weight: bold;
               
 
             }
        
         .number_people{
-        width: 33.33%;
-         float: left;
+           text-align: center;
+              margin:0.5em auto;
           color: $font_color;
-          font-size: $body_size;
+          font-size: $filter_font;
             font-weight: bold;
          
           
@@ -77,10 +83,11 @@
         }
 
         .distance{
-        width: 33.33%;
-         float: left;
+          text-align: center;
+              margin:0.5em auto;
+           text-align: center;
           color: $font_color;
-          font-size: $body_size;
+          font-size: $filter_font;
             font-weight: bold;
          
 
@@ -92,26 +99,25 @@
         }
       }
 
-        
-
         .search_option_2{
-          clear: both;
-          margin-top:2em;
+          
+          margin-top:0;
           border-bottom:1px solid $background_color;
           margin-bottom: 2em;
 
           .event_date{
-         
-          width: 33.33%;
-         float: left;
+          margin:1em auto;
+           width: 100%;
+          text-align: center;
+           
           color: $font_color;
-          font-size: $body_size;
+          font-size: $filter_font;
             font-weight: bold;
          
           
         }
         .search_btn{
-          width: 30%;
+         width: 100%;
           display: inline-block;
           color: $font_color;
           font-family: $body_font;
@@ -136,7 +142,11 @@
           background-color:$button_alt_hover;
 
         }
-        }
+        }//closing search option 2
+
+
+
+
   //---------------------------------------rec events on events page
       .recomended_events{
         clear: both;
@@ -495,11 +505,99 @@
 
 
 
-@media(min-width:950px){
+@media(min-width:750px){
 
-.event_wrapper{
-    max-width: 1000px;
-    margin:0 auto;
+  .event_wrapper{
+
+        max-width: 1000px;
+        margin:0 auto;
+
+        .search_option_1{
+                overflow: hidden;
+           .event_type{
+                width: 33.33%;
+                  color:$font_color;
+                float: left;
+                font-size: $body_size;
+                font-weight: bold;
+                  
+
+                }
+           
+            .number_people{
+            width: 33.33%;
+             float: left;
+              color: $font_color;
+              font-size: $body_size;
+                font-weight: bold;
+             
+              
+              
+            }
+
+            .distance{
+            width: 33.33%;
+             float: left;
+              color: $font_color;
+              font-size: $body_size;
+                font-weight: bold;
+             
+
+              select{
+                width:6em;
+              }
+             
+              
+            }
+          }//closing search_options_1
+
+        .search_option_2{
+          clear: both;
+          margin-top:2em;
+          border-bottom:1px solid $background_color;
+          margin-bottom: 2em;
+
+          .event_date{
+         margin:2em auto;
+         text-align: left;
+          width: 33.33%;
+         float: left;
+          color: $font_color;
+          font-size: $body_size;
+            font-weight: bold;
+         
+          
+        }
+        .search_btn{
+          width: 30%;
+          display: inline-block;
+          color: $font_color;
+          font-family: $body_font;
+          font-size: $subheader_size;
+          background-color:$button_color_alt;
+          margin:2em auto;
+          text-align:center;
+          padding:0.5em;
+          border-radius:5px;
+          overflow: hidden;
+          box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+
+
+          a{
+            text-decoration: none;
+            color:$background_color;
+
+
+          }
+        }
+        .search_btn:hover{
+          background-color:$button_alt_hover;
+
+        }
+        }//closing search option 2
+
+
+
 }//closing event_wrapper
 
 
