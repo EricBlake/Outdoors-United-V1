@@ -71,6 +71,7 @@ p {
 		box-sizing:border-box;
 		margin: 0 auto;
 		overflow: hidden;
+		padding:1em;
 
 
 
@@ -86,10 +87,10 @@ p {
 		.prof_trip_img{
 			box-sizing:border-box;
 			overflow: hidden;
-			width: 40%;
+			width: 25%;
 			margin:0 auto;
 			background-color:$background_white;
-			max-width: 176px;
+			
 			float: left;
 		
 
@@ -99,7 +100,7 @@ p {
 			img{
 							
 				width: 100%;
-				margin:2%;
+			
 				box-shadow: 2px 2px 2px rgba(0,0,0,.15);
 				
 
@@ -258,9 +259,34 @@ p {
 	margin-top:2%;
 
 		.prof_photos{
-			
+			padding:1em;
 			width:90%;
+			margin:0 auto;
 			border-radius:5px;
+			box-sizing:border-box;
+
+			.prof_trip_img{
+			width: 20%;
+			margin:0 auto;
+			background-color:$background_white;
+			float:left;
+		
+
+
+
+
+			img{
+							
+				width: 100%;
+				margin:1%;
+				box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+				
+
+
+
+			}
+			
+		}
 
 
 

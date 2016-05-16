@@ -52,7 +52,7 @@
             }
         .event_date{
               width: 45%;
-              margin:1%;
+              
              margin:0 auto;
           color: $font_color;
           display: inline-block;
@@ -61,7 +61,7 @@
         }
 
         .number_people{
-          width: 45%;
+          width: 30%;
              margin:0 auto;
           color: $font_color;
           display: inline-block;
@@ -70,15 +70,190 @@
         }
 
         .distance{
-          width: 48%;
-             margin:0 auto;
+          width: 30%;
+          margin:0 auto;
           color: $font_color;
           display: inline-block;
+
+          select{
+            width:6em;
+          }
          
           
         }
+
+        .search_btn{
+          width: 30%;
+          display: inline-block;
+          color: $font_color;
+          font-family: $body_font;
+          font-size: $subheader_size;
+          background-color:$button_color_alt;
+          margin:0 auto;
+          text-align:center;
+          padding:0.5em;
+          border-radius:5px;
+          overflow: hidden;
+          box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+
+
+          a{
+            text-decoration: none;
+            color:$background_color;
+
+
+          }
+        }
+        .search_btn:hover{
+          background-color:$button_alt_hover;
+
+        }
   //---------------------------------------rec events on events page
-      
+      .recomended_events{
+        box-sizing:border-box;
+        overflow: hidden;
+        
+        
+        padding:.5em;
+        color:$font_color;
+          
+
+          .rec_img{
+            float:left;
+            width: 30%;
+
+            img{
+              width: 100%;
+              box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+              
+              
+            }
+          }
+          
+          .rec_cont{
+            padding-left:1em;
+            float:left;
+            width: 70%;
+            box-sizing:border-box;
+            
+
+
+            h2{
+
+              margin-left:2em;
+              font-size: $subheader_size;
+              font-family: $body_font;
+              margin-bottom: 0em;
+              
+
+              
+            }
+            p{
+              font-family: $body_font;
+              font-size:$body_size;
+              
+
+            }
+
+            p:first-of-type{
+              font-weight: bold;
+            }
+            a{
+            
+              font-family: $body_font;
+              font-size: $body_size;
+              color: $button_color;
+            }
+          }
+
+          
+          
+        } //closing recomended_events//
+
+        .create_events{
+          margin-top:2em;
+        box-sizing:border-box;
+        overflow: hidden;
+        
+        
+        padding:.5em;
+        color:$font_color;
+          
+
+          .rec_img{
+            float:left;
+            width: 30%;
+
+            img{
+              width: 100%;
+              box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+              
+              
+            }
+          }
+          
+          .rec_cont{
+            padding-left:1em;
+            float:left;
+            width: 70%;
+            box-sizing:border-box;
+            
+
+
+            h2{
+
+             
+              font-size: $bodysubheader_size;
+              font-family: $body_font;
+             
+              
+
+              
+            }
+            p{
+              font-family: $body_font;
+              font-size:$subheader_size;
+              line-height:1.5em;
+              margin-bottom: 2em;
+              
+
+            }
+
+            p:first-of-type{
+              font-weight: bold;
+            }
+          .create_btn{
+          width: 100%;
+          display: inline-block;
+          color: $font_color;
+          font-family: $body_font;
+          font-size: $subheader_size;
+          background-color:$button_color_alt;
+          margin:0 auto;
+          text-align:center;
+          padding:0.5em;
+          border-radius:5px;
+          overflow: hidden;
+          box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+
+
+          a{
+            text-decoration: none;
+            color:$background_color;
+
+
+
+          }
+        }
+        .create_btn:hover{
+          background-color:$button_alt_hover;
+
+        }
+          }
+
+          
+          
+        } //closing recomended_events//
 
 
       }//closing tab content
@@ -106,8 +281,9 @@
 
 
    .upcoming_wrapper{
-    background-color:$background_white;
+    background-color:$background-color;
     overflow: hidden;
+
     
     h2{
       font-family: $body_font;
@@ -135,14 +311,24 @@
             padding-left:0.5em;
             float:left;
 
+            p{
+              font-family: $body_font;
+            }
+            p:first-of-type{
+              font-weight: bold;
+              line-height:1.5em;
+            }
+
+            a{
+              margin-top:0.5em;
+              font-family: $body_font;
+              font-size: $body_font;
+              color: $button_color;
+            }
+
 
           }
 
-          .find_more_button{
-            clear: both;
-            text-decoration:none;
-            font-family: $body_font;
-          }
 
         }//closing upcoming_events
 
@@ -159,12 +345,75 @@
       .tab-wrapper {
         width: 90%;
         margin:0 auto;
+
+        .tab-content{
+          border-radius:5px;
+          .event_type{
+             width: 30%;
+             margin:0 auto;
+            }
+        .event_date{
+            width: 30%;
+            margin:0 auto;
+         
+        }
+
+        .number_people{
+          width: 30%;
+             margin:0 auto;
+          
+        }
+
+        .distance{
+          width: 30%;
+             margin:0 auto;
+          
+         
+          
+        }
+
+           .recomended_events{
+            clear: both;
+            width: 45%;
+            box-sizing:border-box;
+            overflow: hidden;
+            display: inline-block;
+            padding-top:2em;
+           
+                  
+
+          .rec_img{
+            
+            width: 40%;
+
+            img{
+              width: 100%;
+              box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+              
+              
+            }
+          }
+          .rec_cont{
+            padding-left:1em;
+            float:left;
+            width: 60%;
+            box-sizing:border-box;
+          }
+       
+
+          
+          
+        } //closing recomended_events//
+
+
+        }
        
         
 
       .active {
-          border-radius:5px;
+          
           box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+          
           
         }
 
@@ -177,16 +426,35 @@
     overflow: hidden;
     margin:0 auto;
     width:90%;
+
   
 
   .upcoming_wrapper{
+    clear: both;
     width: 100%;
-    float:left;
     margin:0 auto;
     border-radius:5px;
-    margin:1%;
+    margin-top: 1em;
     background-color:$event_color;
-    box-shadow: 2px 2px 2px rgba(0,0,0,.15);
+    box-sizing:border-box;
+    margin-bottom: 1em;
+
+    .upcoming_events{
+      display: inline-block;
+      width: 45%;
+
+
+      .upcoming_img{
+        width: 35%;
+        img{
+          width: 100%;
+
+        }
+      }
+      .upcoming_cont{
+
+      }
+    }
 
   }
 
