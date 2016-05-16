@@ -72,9 +72,11 @@
                           list-style:none;
 
                           li{
+                            display: inline-block;
 
                                 a{
                                     color:$font_color;
+                                    font-family: $body_font;
                                 }
                           }
                         }

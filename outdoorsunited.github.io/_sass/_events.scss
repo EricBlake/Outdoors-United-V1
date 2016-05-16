@@ -223,9 +223,6 @@
         }
 
     
-
-    
-
     
 }
 
@@ -264,6 +261,12 @@
             float: left;
 
 
+          }
+
+          .find_more_button{
+            clear: both;
+            text-decoration:none;
+            font-family: $body_font;
           }
 
         }//closing upcoming_events

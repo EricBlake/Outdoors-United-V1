@@ -6,8 +6,6 @@ p {
 	overflow:hidden;
 
 	
-	
-
 
 	.prof_sect{
 		
@@ -87,6 +85,7 @@ p {
 
 		.prof_trip_img{
 			box-sizing:border-box;
+			overflow: hidden;
 			
 			width: 25%;
 			margin:0 auto;
@@ -178,6 +177,7 @@ p {
 
 					a{
 						text-decoration: none;
+						color: $background_color;
 						
 
 
@@ -250,12 +250,55 @@ p {
 
 }//closing prof_wrapper
 
+@media(min-width:720px){
+
+
+	.prof_photos{
+		
+		width:90%;
+		border-radius:5px;
 
 
 
-@media(min-width:767px){
 
-	//--------------------------------------------Profile breakpoint 1-----//
+	}//closing prof_photos
+
+	.friend_item_wrapper{
+		box-sizing:border-box;
+		overflow: hidden;
+		margin:0 auto;
+		width: 90%;
+
+
+		.prof_friends{
+			width: 48%;
+			float:left;
+			margin:0 auto;
+			border-radius:5px;
+			margin:1%;
+		}
+
+		.prof_items{
+			width: 48%;
+			float:left;
+			margin:0 auto;
+			border-radius:5px;
+			background-color:$event_color;
+			margin:1%;
+		}
+
+
+	}//closing friend_item_wrapper
+
+
+}//closing mediary
+
+
+
+
+@media(min-width:950px){
+
+	//--------------------------------------------Profile breakpoint 2-----//
 
 
 	.prof_wrapper{
@@ -263,6 +306,11 @@ p {
 		box-sizing:border-box;
 		overflow: hidden;
 		margin:2%;
+
+		.prof_cont_wrapper{
+			max-width: 1000px;
+			margin:0 auto;
+		}
 
 		.prof_sect{
 			padding-top: 2em;
@@ -295,6 +343,7 @@ p {
 		overflow: hidden;
 		width: 70%;
 		float:left;
+		border-radius:5px;
 
 
 
@@ -346,7 +395,7 @@ p {
 	float:left;
 
 	.prof_friends{
-			
+			width: 100%;
 			background-color:$background_color;
 			margin:2%;
 			padding-left:2%;
@@ -375,11 +424,12 @@ p {
 		}//closing dash_friends tag
 
 		.prof_items{
-			
+			width: 100%;
 			margin:2%;
 			text-align: center;
 			overflow: hidden;
 			box-sizing:border-box;
+			background-color:$background_color;
 			
 			
 
