@@ -38,3 +38,8 @@ $(function(){
     }
 });
 
+
+$('.toggle').click(function(){
+  $('.content').slideToggle(900);
+});
+
